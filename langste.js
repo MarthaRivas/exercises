@@ -1,8 +1,7 @@
 
- var a 
 function langsteWord (a) {
-    for (i = 1; i <length; i ++){
-        a = a + i;
+    for (i = 1; i <length; i = i + 1){
+    
 
     }
     

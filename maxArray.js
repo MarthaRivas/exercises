@@ -1,21 +1,9 @@
-funtion maxArray(a){
+funtion maxArray(a) {
+var longestword = a [0]
 
-var biggestNumbers = a [0]
-
-    for (var i = 1; i < a.length; i = i + 1  )
+    for (i = 1; i <a.lenght; i = i +1)
     console.log (i)
-    {
-        if ( a [i] > biggestNumbers) {
-            biggestNumbers = a[i] 
-            return biggestNumbers
-        }
-        else
-        { return none}
-     
-
-    }
-
-
+        {}
+return longestword
 }
-
-console.log(maxArray([1, 2, 33, 4])) 
+console.log (maxArray (['martha', 'pera']))
