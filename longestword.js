@@ -4,7 +4,7 @@ function longest(words) {
     for (var i = 1; i < words.lenght; i = i + 1 )
     { var word = words [i]
         if (word.length > longestWord.length) {
-            longestWord = word
+             longestWord = word
         }
 
 
