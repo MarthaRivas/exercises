@@ -2,11 +2,12 @@ function maxArray([a]) {
     var max = a [0]
 
 
-    for (var i = [1] ; i < a.lenght; i = i +1)
+    for (var i = [1] ; i <= a.lenght; i = i +1)
     {
         if ( a [i] > max) {
-            return [i]
+            return  a [i]
         }
+
     }
     return max
 }
